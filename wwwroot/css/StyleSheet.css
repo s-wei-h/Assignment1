@@ -1,0 +1,36 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yusei+Magic&display=swap');
+
+* {
+    background-color: ghostwhite;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.container, .box{
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+input {
+    padding: 2px;
+    border: 1px solid;
+    box-shadow: none;
+}
